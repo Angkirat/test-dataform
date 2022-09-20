@@ -1,6 +1,10 @@
 config {type: "table"}
 
 SELECT 
+  string_field_0 AS Series_Name,
+  string_field_1 AS Series_Code,
+  string_field_2 AS Country_Name,
+  string_field_3 AS Country_Code,
   CASE string_field_4 
     WHEN '..' THEN NULL 
     ELSE CAST(string_field_4 AS NUMERIC) 
