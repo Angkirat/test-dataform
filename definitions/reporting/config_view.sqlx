@@ -5,5 +5,3 @@ select ${when(
     25,
     21
 )} as config_col
-
--- SELECT "Testing dataform with Bigquery" as Test
