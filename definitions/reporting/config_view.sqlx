@@ -1,4 +1,4 @@
--- config {type: "view"}
+config {type: "view"}
 
 -- select ${when(
 --     dataform.projectConfig.warehouse === "bigquery",
