@@ -1,9 +1,9 @@
 config {type: "view"}
 
--- select ${when(
---     dataform.projectConfig.warehouse === "bigquery",
---     "warehouse is set to bigquery!",
---     "warehouse is not set to bigquery!"
--- )}
+select ${when(
+    dataform.projectConfig.warehouse === "bigquery",
+    "warehouse is set to bigquery!",
+    "warehouse is not set to bigquery!"
+)}
 
-SELECT "Testing dataform with Bigquery" as Test
+-- SELECT "Testing dataform with Bigquery" as Test

@@ -1,6 +1,6 @@
 {
     "warehouse": "bigquery",
-    "defaultSchema": "dataform",
+    "defaultSchema": "test_Dataform",
     "assertionSchema": "dataform_assertions",
     "defaultDatabase": "seismic-relic-362718",
     "useRunCache": false
