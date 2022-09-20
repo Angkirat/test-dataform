@@ -6,4 +6,4 @@ config {type: "view"}
 --     "warehouse is not set to bigquery!"
 -- )}
 
-SELECT "Testing dataform with Bigquery"
+SELECT "Testing dataform with Bigquery" as Test
