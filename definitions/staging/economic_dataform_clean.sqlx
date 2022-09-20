@@ -1,0 +1,133 @@
+config {type: "table"}
+
+SELECT 
+  CASE string_field_4 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_4 AS NUMERIC) 
+  END AS `YEAR_1990`,
+  CASE string_field_5 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_5 AS NUMERIC) 
+  END AS `YEAR_1991`,
+  CASE string_field_6 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_6 AS NUMERIC) 
+  END AS `YEAR_1992`,
+  CASE string_field_7 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_7 AS NUMERIC) 
+  END AS `YEAR_1993`,
+  CASE string_field_8 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_8 AS NUMERIC) 
+  END AS `YEAR_1994`,
+  CASE string_field_9 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_9 AS NUMERIC) 
+  END AS `YEAR_1995`,
+  CASE string_field_10 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_10 AS NUMERIC) 
+  END AS `YEAR_1996`,
+  CASE string_field_11 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_11 AS NUMERIC) 
+  END AS `YEAR_1997`,
+  CASE string_field_12 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_12 AS NUMERIC) 
+  END AS `YEAR_1998`,
+  CASE string_field_13 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_13 AS NUMERIC) 
+  END AS `YEAR_1999`,
+  CASE string_field_14 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_14 AS NUMERIC) 
+  END AS `YEAR_2000`,
+  CASE string_field_15 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_15 AS NUMERIC) 
+  END AS `YEAR_2001`,
+  CASE string_field_16 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_16 AS NUMERIC) 
+  END AS `YEAR_2002`,
+  CASE string_field_17 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_17 AS NUMERIC) 
+  END AS `YEAR_2003`,
+  CASE string_field_18 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_18 AS NUMERIC) 
+  END AS `YEAR_2004`,
+  CASE string_field_19 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_19 AS NUMERIC) 
+  END AS `YEAR_2005`,
+  CASE string_field_20 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_20 AS NUMERIC) 
+  END AS `YEAR_2006`,
+  CASE string_field_21 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_21 AS NUMERIC) 
+  END AS `YEAR_2007`,
+  CASE string_field_22 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_22 AS NUMERIC) 
+  END AS `YEAR_2008`,
+  CASE string_field_23 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_23 AS NUMERIC) 
+  END AS `YEAR_2009`,
+  CASE string_field_24 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_24 AS NUMERIC) 
+  END AS `YEAR_2010`,
+  CASE string_field_25 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_25 AS NUMERIC) 
+  END AS `YEAR_2011`,
+  CASE string_field_26 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_26 AS NUMERIC) 
+  END AS `YEAR_2012`,
+  CASE string_field_27 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_27 AS NUMERIC) 
+  END AS `YEAR_2013`,
+  CASE string_field_28 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_28 AS NUMERIC) 
+  END AS `YEAR_2014`,
+  CASE string_field_29 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_29 AS NUMERIC) 
+  END AS `YEAR_2015`,
+  CASE string_field_30 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_30 AS NUMERIC) 
+  END AS `YEAR_2016`,
+  CASE string_field_31 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_31 AS NUMERIC) 
+  END AS `YEAR_2017`,
+  CASE string_field_32 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_32 AS NUMERIC) 
+  END AS `YEAR_2018`,
+  CASE string_field_33 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_33 AS NUMERIC) 
+  END AS `YEAR_2019`,
+  CASE string_field_34 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_34 AS NUMERIC) 
+  END AS `YEAR_2020`,
+  CASE string_field_35 
+    WHEN '..' THEN NULL 
+    ELSE CAST(string_field_35 AS NUMERIC) 
+  END AS `YEAR_2021`
+
+FROM ${ref("economic_dataform")}
