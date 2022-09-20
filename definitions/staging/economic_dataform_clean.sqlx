@@ -130,4 +130,4 @@ SELECT
     ELSE CAST(string_field_35 AS NUMERIC) 
   END AS `YEAR_2021`
 
-FROM ${ref("economic_dataform")}
+FROM ${ref("source")}

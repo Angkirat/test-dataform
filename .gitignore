@@ -2,3 +2,4 @@
 .df-credentials.json
 node_modules/
 bigquery_credentials.json
+*.DS_Store*
